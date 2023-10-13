@@ -1,0 +1,246 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	width: 100%;
+	background-color: rgb(255, 28, 28);
+}
+
+.logo{
+	color: rgb(255, 28, 28);
+	margin: 5% 0 0 5%;
+	width: 25%;
+}
+
+.hamburger{
+	width: 15%;
+	float: right;
+	color: white;
+	margin: 10% 5% 0 0;
+}
+
+.mobileNav{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	background-color: rgba(255, 28, 28, 0.699);
+	opacity: 90%;
+	position: absolute;
+	right: 0;
+	animation-name: example;
+	animation-duration: 5s;
+}
+.mobileNav ul, .mobileNav{
+	line-height: 200%;
+}
+.mobileNav li{
+	font-weight: bolder;
+}
+
+/* The animation code */
+@keyframes example {
+	0% {background-color: rgb(255, 28, 28);
+	right: 0;}
+	25% {background-color: rgb(255, 28, 28);
+	right: 200px;}
+	50% {background-color: yellow;
+	right: 200px;}
+	75% {background-color: blue;
+	right: 0px;}
+	100% {background-color: rgba(255, 28, 28, 0.699);
+	right: 0;}
+}
+
+main{
+	background-color: black;
+}
+
+img{
+	width: 100%;
+}
+
+.siameseBicyle{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	width: 100%;	
+	color: white
+}
+
+.head2{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	text-align: left;
+	font-size: 300%;
+	font-weight: bolder;
+}
+
+.prices{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: larger;
+	color: rgb(255, 28, 28);
+	font-weight: bold;
+}
+
+/* #naira{
+	text-decoration: double line-through;
+	font-size: large;
+	font-weight: bolder;
+}
+#naira2{
+	text-decoration: double line-through;
+	font-size: small;
+	font-weight: bolder;
+} */
+
+#cancel{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	text-decoration: line-through rgb(255, 28, 28) solid;
+	font-size: small;
+	color: white;
+	font-weight: normal;
+}
+
+label{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: small;
+	color: rgb(255, 28, 28);
+}
+input{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	width: 35%;
+}
+input::placeholder{
+	color: rgb(255, 28, 28);
+	
+}
+
+.addToCart{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	width: 35%;
+	background-color: rgb(255, 28, 28);
+	color: white;
+	font-size: large;
+	font-weight: bolder;
+}
+
+.proceedPayment{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	width: 100%;
+	background-color: white;
+	color: rgb(255, 28, 28);
+}
+
+.h2{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 250%;
+	font-weight: bolder;
+	color: rgb(255, 28, 28);
+}
+.h2 ~ p{
+	line-height: 150%;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+.bodyDiv{
+	padding-left: 3%;
+	width: 94%;
+	background-color: black;
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.reviews{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	color: rgb(255, 28, 28);
+}
+
+.reviews>span{
+	color: white;
+}
+
+.mayAlsoLike{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	background-color: rgb(255, 28, 28);
+	border: 5px solid black;
+}
+
+.mayAlsoLike h3{
+	font-size: 200%;
+	font-weight: bolder;
+}
+
+.mayAlsoLike p{
+	font-size: large;
+	font-weight: bolder;
+}
+ 
+footer h3{
+	text-align: center;
+	background-color: black;
+	font-size: x-large;
+	font-weight: lighter;
+}
+
+footer{
+	text-align: left;
+	text-justify: auto;
+	background-color: rgb(255, 28, 28);
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+footer nav{
+	padding-left: 38%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+footer h2{
+	color: rgb(255, 28, 28);
+	background-color: black;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bolder;
+
+}
+
+@media screen and (min-width: 480px) {
+
+}
