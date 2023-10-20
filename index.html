@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200,300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,101 +23,211 @@
                 <a href=""><li>Contact Us</li></a>
             </ul>
         </nav>
+
+        <nav class="tabletNav">
+            <ul>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Shopping Basket</li></a>
+                <a href=""><li>Login</li></a>
+                <a href=""><li>Contact Us</li></a>
+            </ul>
+        </nav>
     </header>
     <main>
         <div class="siameseBicyle">
-        <div>    
-            <img src="./IMG/Pink 1 Siamese.jpg" alt="">
-        </div>
-        <div class="bodyDiv">    
-            <h2 class="head2">Siamese Bicycle</h2>
-            <pre><p class="prices">$599.50    <span id="cancel">$659.50</span> </p></pre> <br>
+            <div class="homeBike">    
+                <img  src="./IMG/Pink 1 Siamese.jpg" alt="">
+            </div>
+            <div class="bodyDiv1">    
+                <h2 class="head2">Siamese Bicycle</h2>
+                <pre><p class="prices">$599.50    <span id="cancel">$659.50</span> </p></pre> <br>
             
-            <label for="quantity">In stock, ready to ship...</label><br>
-            <input type="number" name="quantity" class="quantity" placeholder="Quantity"> <br><br>
-            <button class="addToCart">Add To Cart</button> <br><br>
-            <button class="proceedPayment">Proceed To Payment</button> <br><br>
+                <label for="quantity">In stock, ready to ship...</label><br>
+                <input type="number" name="quantity" class="quantity" placeholder="Quantity"> <br><br>
+                <button class="addToCart">Add To Cart</button> <br><br>
+                <button class="proceedPayment">Proceed To Payment</button> <br><br>
         
-        
-            <h2 class="h2">Siamese Wonders...</h2>
-            <p>The Siamese is built for those who want to ride as much as possible while supporting their 
-                weekend cycling habits. Commutes become wild fun, an extension of reckless off-road misadventures. <br>
-                Spend less time behind the wheel and more time on two wheels. <br>The Siamese is guaranteed to improve your well-being.
-                <br>More Miles.
-                <br>More Smiles.
-            </p>                
+                <div class="siameseWonder1">
+                    <h2 class="h2">Siamese Wonders...</h2>
+                    <p>The Siamese is built for those who want to ride as much as possible while supporting their 
+                        weekend cycling habits. Commutes become wild fun, an extension of reckless off-road misadventures. <br>
+                        Spend less time behind the wheel and more time on two wheels. <br>The Siamese is guaranteed to improve your well-being.
+                        <br>More Miles.
+                        <br>More Smiles.
+                    </p>
+                </div>
+            </div>            
         </div>
 
-        <div>
-            <section class="slider">
-                <img src="./IMG/Pink Siamese 6.png" alt="">
-            </section>
-        </div>
-        <div class="bodyDiv">
-            <div class="reviewDiv">
-                    <pre><p class="reviews">Customer Reviews...                     <label for="newComment">Write A Review...</label></p>  </pre>
-                    <pre><p><span>Based on 2 reviews</span>                     <input type="text" name="newComment" class="newComment"> </p></pre>
-                                    
-                <p class="reviews">Cheta-coder says...</p>
-                <p>High Quality <br>
-                    High quality, Solid build. Lightweight. Nice finish</p> <br><br>
-                <p class="reviews">Che-girl says...</p>
-                <p>OMG... <br>
-                I absolutely loved it, Nice Design and Color</p>             
+        
+        <div class="slideContainer">
+            <div class="slideWrap">
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">1/3</div>    -->
+                    <img class="img1" src="./IMG/Pink Siamese 6.png" alt="First Bike">
+                    <!-- <div>Caption Text</div> -->
+                </div>
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">2/3</div>    -->
+                    <img class="img2" src="./IMG/Blue Siamese 1.jfif" alt="Second Bike">
+                    <!-- <div>Caption Two</div> -->
+                </div>
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3/3</div>    -->
+                    <img class="img3" src="./IMG/Black Siamese 1.jfif" alt="Third Bike">
+                    <!-- <div>Caption Three</div> -->
+                </div>
+                <div class="mySlides fade">
+                    <img class="img" src="./IMG/Black Siamese.jfif" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./IMG/Pink 3 Siamese.jfif" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./IMG/Pink Siamese.jpg" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./IMG/Pink 2 Siamese.jpg" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./IMG/Siamese bicycle 3.jpg" alt="">
+                </div>
             </div>
 
-        </div>    
+            <!-- Next and Previous Buttons  -->
+            <!-- <a class="prev" onclick="plusSlides(-1)" href="">&#10094;</a>
+            <a class="prev" onclick="plusSlides(1)" href="">&#10095;</a> -->
+            <div class="siameseWonder2">
+                <h2 class="h2">Siamese Wonders...</h2>
+                <p>The Siamese is built for those who want to ride as much as possible while supporting their 
+                    weekend cycling habits. Commutes become wild fun, an extension of reckless off-road misadventures. <br>
+                    Spend less time behind the wheel and more time on two wheels. <br>The Siamese is guaranteed to improve your well-being.
+                    <br>More Miles.
+                    <br>More Smiles.
+                </p>
+            </div>    
+        </div>
+
+        <!-- The dots/circles -->
+        <!-- <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+            
+        <div class="bodyDiv">
+            <div class="reviewDiv">
+                <pre><p class="reviews">Customer Reviews...                     <label for="newComment">Write A Review...</label></p>  </pre>
+                <p><span>Based on 2 reviews</span>                     <input type="text" name="newComment" class="newComment"> </p></pre>
+                
+                <div>
+                    <p class="reviews">Cheta-coder says...</p>
+                    <p>High Quality <br><br>
+                       High quality, Solid build. Lightweight. Nice finish
+                    </p> <br><br>
+                </div>
+                <div>               
+                    <p class="reviews">Che-girl says...</p>
+                    <p>OMG... <br><br>
+                    I absolutely loved it, Nice Design and Color</p>             
+                </div>
+            </div>
+
+            <div class="reviewDiv2">
+                <div>
+                    <p class="reviews">Customer Reviews...</p><br>
+                    <p><span>Based on 2 reviews</span> </p>
+                       
+                    <p class="reviews">Cheta-coder says...</p><br>
+                    <p>High Quality <br><br>
+                        High quality, Solid build. Lightweight. Nice finish
+                    </p> <br><br>
+                </div>
+                
+                <div>
+                    <label for="newComment">Write A Review...</label><br>
+                    <input type="text" name="newComment" class="newComment"><br>
+                               
+                    <p class="reviews">Che-girl says...</p><br>
+                    <p>OMG... <br><br>
+                    I absolutely loved it, Nice Design and Color</p>             
+                </div>
+            </div>
+
+        </div>
         <div style="background-color: rgb(255, 28, 28);" class="mayAlsoLike">
-            <h3>You May Also Like...</h3>
-            <img src="./IMG/Bengal 6.jpg" alt="Bengal Bicycle">
-            <p>Bengal Bicycle</p>
-            <img src="./IMG/Sphynx 2.jpg" alt="Sphynx Bicycle">
-            <p>Sphynx Bicycle</p>
+            <h3>You May Also Like...</h3>    
+            <div class="alsoBikes">
+                <div>
+                    <img src="./IMG/Bengal 6.jpg" alt="Bengal Bicycle">
+                    <p>Bengal Bicycle</p></div>
+                <div>
+                    <img src="./IMG/Sphynx 2.jpg" alt="Sphynx Bicycle">
+                    <p>Sphynx Bicycle</p>
+                </div>
+            </div>
         </div>
         
         <footer>
-            <h3>Company</h3>
-            <nav>
-                <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Shopping Basket</li>
-                    <li>Privacy Policy</li>
-                    <li>Cookie Policy</li>
-                </ul>
-            </nav>
-            <h3>Support</h3>
-            <nav>
-                <ul>
-                    <li>Lifetime Guarantee</li>
-                    <li>Carbon Expertise</li>
-                    <li>VPP Technology</li>
-                </ul>
-            </nav>
-            <h3>Technology</h3>
-            <nav>
-                <ul>
-                    <li>Product Recall</li>
-                    <li>Bike Registration</li>
-                    <li>Warrantee & Replacement</li>
-                    <li>Bike Archive</li>
-                </ul>
-            </nav>
-            <h3>Experience</h3>
-            <nav>
-                <ul>
-                    <li>Stories</li>
-                    <li>Events</li>
-                    <li>Find A Retailer</li>
-                    <li>Factory Demo</li>
-                    <li>Demo Tour</li>
-                </ul>
-            </nav>
-            <p>&copy; Roar Bikes 2023 All Rights Reserved.</p>
+            <div class="fdiv">
+                <section>
+                    <h3>Company</h3>
+                    <nav>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li>Shopping Basket</li>
+                            <li>Privacy Policy</li>
+                            <li>Cookie Policy</li>
+                        </ul>
+                    </nav>
+                </section>
+                
+                <section>
+                    <h3>Support</h3>
+                    <nav>
+                        <ul>
+                            <li>Lifetime Guarantee</li>
+                            <li>Carbon Expertise</li>
+                            <li>VPP Technology</li>
+                        </ul>
+                    </nav>
+                </section>
+                
+                <section>
+                    <h3>Technology</h3>
+                    <nav>
+                        <ul>
+                            <li>Product Recall</li>
+                            <li>Bike Registration</li>
+                            <li>Warrantee & Replacement</li>
+                            <li>Bike Archive</li>
+                        </ul>
+                    </nav>
+                </section>
+                
+                <section>
+                    <h3>Experience</h3>
+                    <nav>
+                        <ul>
+                            <li>Stories</li>
+                            <li>Events</li>
+                            <li>Find A Retailer</li>
+                            <li>Factory Demo</li>
+                            <li>Demo Tour</li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+            
+            <div>
+                <p>&copy; Roar Bikes 2023 All Rights Reserved.</p>
 
-            <section>
-                <h2>Roar Bikes</h2>
-            </section>
+                <section class="fLogo">
+                    <img class="logo" src="./IMG/roar bike logo new.png" alt="logo">
+                    <h2>Roar Bikes</h2>
+                </section>
+            </div>
         </footer>
     </main>
     
