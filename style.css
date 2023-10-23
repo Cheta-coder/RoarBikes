@@ -204,6 +204,7 @@ input:hover{
 	line-height: 150%;
 	font-size: 1.5em;
 	text-align: justify;
+	font-family: 'Saira Semi Condensed', sans-serif;
 }
 .homeBike{
 	margin-top: 25%;
@@ -471,6 +472,9 @@ footer h2{
 	.mySlides{
 		width: 47%;
 		margin-bottom: -90%;
+	}
+	.mySlides img:hover{
+		width: 50%;
 	}
 	.reviewDiv{
 		visibility: hidden;
