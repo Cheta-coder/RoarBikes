@@ -384,10 +384,10 @@ footer h2{
 
 @media screen and (min-width: 480px) {
 	header{
-	font-family: 'Saira Semi Condensed', sans-serif;
-	width: 100%;
-	background-color: rgb(255, 28, 28);
-	}
+		font-family: 'Saira Semi Condensed', sans-serif;
+		width: 100%;
+		background-color: rgb(255, 28, 28);
+	}                             
 
 	.hamburger{
 		visibility: hidden;
@@ -491,6 +491,9 @@ footer h2{
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
+	.reviewDiv2 div{
+		color: white;
+	}
 	label{
 		display: block;
 	}
@@ -554,4 +557,9 @@ footer h2{
 		display: inline;
 		width: 100%;
 	}
+}
+
+
+@media screen and (min-width: 1000px) {
+
 }

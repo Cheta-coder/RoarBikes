@@ -1,6 +1,7 @@
 let mobileNav = document.querySelector('.mobileNav');
 let hamburger = document.querySelector('.hamburger');
 let closeIcon = document.querySelector('.closeIcon');
+let images = [];
 let slideIndex = 1;
 // showSlides(slideIndex);
 
@@ -18,14 +19,16 @@ closeIcon.addEventListener('click', ()=>{
     hamburger.style.visibility = 'visible';
 });
 
-// Next or previous controls
-let plusSlides = (n)=> {
-    showSlides(slideIndex += n);
-}
-// Thumbnail image controls
-let currentSlide = (n) => {
-    showSlides(slideIndex = n);
-}
+
+
+// // Next or previous controls
+// let plusSlides = (n)=> {
+//     showSlides(slideIndex += n);
+// }
+// // Thumbnail image controls
+// let currentSlide = (n) => {
+//     showSlides(slideIndex = n);
+// }
 
 // let showSlides = (n)=> {
 //     let i;
